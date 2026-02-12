@@ -1,0 +1,81 @@
+```gitignore
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Datos sensibles (mantener solo estructura)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Modelos entrenados grandes
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Resultados temporales
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.html
+results/models/*.csv
+results/models/*.txt
+
+# Reportes (excepto plantillas)
+reports/*.pdf
+reports/*.docx
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
+.env.local
+
+# Caché
+.cache/
+*.cache
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
